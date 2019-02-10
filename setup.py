@@ -10,7 +10,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[],
-    url='https://naremit.com',
+    url='https://github.com/joncombe/django-thaidate',
     license='BSD licence, see LICENCE file',
     description='Replacement for the "date" Django template tag to show Thai years',
     long_description=open('README.md').read(),
