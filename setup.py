@@ -4,7 +4,7 @@ from setuptools import find_packages
 
 setup(
     name='django-thaidate',
-    version='1.0.1',
+    version='1.0.2',
     author=u'Jon Combe',
     author_email='jon@naremit.com',
     packages=find_packages(),

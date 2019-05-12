@@ -13,9 +13,8 @@ def thaidate(value, arg=None):
         return ''
 
     try:
-        if settings.TIME_ZONE == 'Asia/Bangkok':
-            arg = arg.replace('y', str(value.year + 543)[2:])
-            arg = arg.replace('Y', str(value.year + 543))
+        arg = arg.replace('y', str(value.year + 543)[2:])
+        arg = arg.replace('Y', str(value.year + 543))
     except:
         pass
 
