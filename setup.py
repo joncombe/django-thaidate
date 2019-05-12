@@ -13,7 +13,7 @@ setup(
     url='https://github.com/joncombe/django-thaidate',
     license='BSD licence, see LICENCE file',
     description='Replacement for the "date" Django template tag to show Thai years',
-    long_description=open('README.md').read(),
+    long_description='Replacement for the "date" Django template tag to show Thai years',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
